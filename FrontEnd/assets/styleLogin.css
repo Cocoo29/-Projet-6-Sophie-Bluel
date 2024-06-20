@@ -1,0 +1,151 @@
+
+
+
+
+body {
+    background-color: #fcf9f7; 
+    height: 80%;
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    margin: 0 10%;
+}
+main {
+    text-align: center;
+    margin-bottom: 40px; 
+    max-width: 80%;
+    margin: 0 auto;
+}
+h1{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Syne';
+	font-size: 22px;
+	font-weight: 800;
+	color: #B1663C;
+    
+}
+
+h1 > span {
+	font-family: 'Work Sans';
+	font-size:10px;
+	letter-spacing: 0.1em;
+
+}
+
+h2 {
+    color: #1D6154;
+    font-family: 'Syne';
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 0 10px;
+    font-size: 1.2em;
+    color: black;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover a {
+    color: #B1663C;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+label {
+    align-self: flex-start;
+    margin-bottom: 1px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 300px;
+    padding: 23px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    outline: none; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+input[type="submit"] {
+    background-color: #1D6154; 
+    color: white;
+    cursor: pointer;
+    border: 2px solid #1D6154;
+    border-radius: 30px;
+    margin-top: 2%;
+   
+}
+
+input[type="submit"]:hover {
+    background-color: #193b1b; 
+}
+
+#error-message {
+    color: red;
+    margin-bottom: 10px; 
+    display: none;
+}
+
+a {
+    text-decoration: underline; 
+    color: black;
+    margin-top: 2%;
+}
+
+a:hover {
+    color: darkblue; 
+}
+footer {
+    position: fixed; /* Utilisation d'une position fixe pour rester en bas de la page */
+    bottom: 37%; /* Alignement en bas de la page */
+    left: 87%; /* Alignement à droite */
+    background-color: #fcf9f7; /* Couleur crème claire */
+    padding: 10px 20px; /* Ajout de rembourrage pour l'espace */
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav li {
+    position: fixed;
+    bottom: 0;
+}
+
+footer nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer nav li a:hover {
+    color: #B1663C;
+}
+
